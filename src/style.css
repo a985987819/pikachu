@@ -1,8 +1,16 @@
+/*
+大家好
+今天我来给大家画一个
+皮卡丘！
+*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*
+首先先画出背景
+*/
 body{
     background: #ffe600;
     min-height: 100vh;
@@ -11,6 +19,9 @@ body{
     display: block;
     height: 200px;
 }
+/*
+然后画出它的鼻子
+*/
 .nose{
     border: 10px solid;
     border-color: black transparent blue transparent;
@@ -51,6 +62,9 @@ body{
     left: -10px;
     border-radius: 10px 10px 0 0;
 }
+/*
+然后换出它的眼睛
+*/
 .eye{
     border: 2px solid black;
     width: 64px;
@@ -80,7 +94,9 @@ body{
 .eye.right{
     transform: translateX(130px);
 }
-
+/*
+然后是嘴巴
+*/
 .mouth{
     width: 140px;
     height: 200px;
@@ -160,6 +176,9 @@ body{
     border-radius: 100px;
     background: rgb(255,71,96);
 }
+/*
+最后是圆脸
+*/
 .face{
     position: absolute;
     left: 50%;

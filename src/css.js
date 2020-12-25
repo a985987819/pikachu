@@ -1,14 +1,28 @@
 const string = `
-.skin *{
+/*
+大家好
+今天我来给大家画一个
+皮卡丘！
+*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.skin{
+/*
+首先先画出背景
+*/
+body{
     background: #ffe600;
-    min-height: 50vh;
-    position:relative;
+    min-height: 100vh;
 }
+.skin{
+    display: block;
+    height: 200px;
+}
+/*
+然后画出它的鼻子
+*/
 .nose{
     border: 10px solid;
     border-color: black transparent blue transparent;
@@ -49,6 +63,9 @@ const string = `
     left: -10px;
     border-radius: 10px 10px 0 0;
 }
+/*
+然后换出它的眼睛
+*/
 .eye{
     border: 2px solid black;
     width: 64px;
@@ -78,7 +95,9 @@ const string = `
 .eye.right{
     transform: translateX(130px);
 }
-
+/*
+然后是嘴巴
+*/
 .mouth{
     width: 140px;
     height: 200px;
@@ -158,6 +177,9 @@ const string = `
     border-radius: 100px;
     background: rgb(255,71,96);
 }
+/*
+最后是圆脸
+*/
 .face{
     position: absolute;
     left: 50%;
